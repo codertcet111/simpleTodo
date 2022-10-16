@@ -1,0 +1,20 @@
+#todoitems {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #04AA6D;
+}
+
+#todoitems td, #todoitems th {
+  padding: 8px;
+}
+
+#todoitems tr:nth-child(even){background-color: #f2f2f2;}
+
+#todoitems th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
